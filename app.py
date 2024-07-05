@@ -10,7 +10,7 @@ janela_principal = [
     [sg.Button('Salvar')]
 ]
 
-janela = sg.Window('Principal',Layout=janela_principal)
+janela = sg.Window('Principal', layout=janela_principal)
 
 while True:
     event, values = janela.read()
